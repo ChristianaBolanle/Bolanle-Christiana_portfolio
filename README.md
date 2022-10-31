@@ -17,7 +17,7 @@ I've been passionate about anything that involves Data and Coding because I stud
                   
  
  ## [Online Fraud Detection: Project Overview](https://github.com/ChristianaBolanle/Bolanle-Christiana_portfolio)
- ### According to Infosecurity Magazine, fraud cost the entire economy £3.2 trillion in 2018. For some businesses, fraud losses could account for more than 10% of total costs. Such huge losses motivate companies to seek out novel strategies for preventing, detecting, and eliminating fraud. Machine learning is now the most efficient technological method for preventing financial fraud and I was able to:
+ According to Infosecurity Magazine, fraud cost the entire economy £3.2 trillion in 2018. For some businesses, fraud losses could account for more than 10% of total costs. Such huge losses motivate companies to seek out novel strategies for preventing, detecting, and eliminating fraud. Machine learning is now the most efficient technological method for preventing financial fraud and I was able to:
  - Perform exploratory data analysis in python.
 - Perform feature engineering.
 - Perform Model selection, training, and validation.
@@ -26,3 +26,5 @@ I've been passionate about anything that involves Data and Coding because I stud
 
 ![](https://github.com/ChristianaBolanle/Bolanle-Christiana_portfolio/blob/main/Images/pie%20chart%20online%20fraud%20detection.PNG)
 ![](https://github.com/ChristianaBolanle/Bolanle-Christiana_portfolio/blob/main/Images/Heat%20map%20Online%20Fraud%20Detection.PNG)
+
+This Readme section is to walk you through my codes and processes and will be useful to Data Analysts and Scientist. For the Stakeholder's report and insights, check the Stakeholders Report PDF or watch the presentation https://www.canva.com/design/DAFJ42pgpa0/iIWrYkH_auv3R8Z1W1slTA/view?utm_content=DAFJ42pgpa0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent#8 The dataset used was provided by Blossom Bank, a UK based bank. The transactional data set contained 10 columns and 1,048,575 rows.
