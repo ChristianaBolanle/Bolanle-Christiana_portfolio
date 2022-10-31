@@ -8,3 +8,5 @@
 - Perform Model selection, training, and validation.
 - Perform Model evaluation
 - Give recommendations to Blossom Bank based on insights from data. 
+
+[](https://github.com/ChristianaBolanle/Bolanle-Christiana_portfolio/blob/main/Images/pie%20chart%20online%20fraud%20detection.PNG)
