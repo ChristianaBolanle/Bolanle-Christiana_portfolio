@@ -21,6 +21,7 @@ This Readme section is to walk you through my codes and processes and will be us
 
 ## Data Cleaning and Exploratory Data Analysis
 This project was conducted using Jupyter Notebook. I found no missing cell(s) and that the datatypes (columns) were of the required type after loading the requisite libraries. I then performed exploratory data analysis, gaining pertinent insights as I went along generating the appropriate visualisation charts. The data was then displayed using pairplots, heatmaps, pie charts, distribution charts, boxplots, histograms, and box plots. For more technical information. please consult the jupyter Notebook file, and for business summary and recommendations, please consult the Stakeholders report file.
+
 ## Feature Engineering
 Due to my observation that categorical columns would not be processed during the deployment of the models, I decided to change them to numerical values (encoding). The 'nameOrg' and 'nameDest' columns were eliminated because they played no significant role in our models, and I encoded the 'type' column by creating dummy columns.
 
@@ -32,3 +33,9 @@ I used the Linear Regression, Random Forest, and Decision Tree supervised machin
 - **Accuracy** on the testing data is ~99.97% which means that the model correctly predicts almost 5/5 of the transactions.This means that we will not miss out on any potential non-fraudulent transaction.
 - **F1 Score**: The F1 score on the testing data is ~87%, which is great since it takes into account both False Positives and False Negatives.
 The Random Forest Model is obviously the best model out of the 3.The heatmap shows the details of predicting fraudulent transactions with the Random Forest Model.While 294 transactions were actually fraudulent as predicted (True positive TP), 65 transactions were actually fraudulent even with the fact that it was predicted to be non-fraudulent (False negative FN). 5 transactions were actually non-fraudulent even when it was predicted to be fraudulent(False positive FP). 314148 transactions were actually non-fraudulent as predicted (True negative TN). In relation to accuracy, Random Forest Model is the most accurate.
+
+## Recommendation
+- There should be a transfer limit on a daily basis so as to curb the rate at which fraudulent transactions take place through transfers.
+- Proper investigation should be carried out by Blossom bank in the process of Cash_out over the counter.
+- Blossom bank should provide additional ways of securing accounts. For instance, an OTP (One time password) should be directed to the account holder's email address in addition to a secret question being answered especially for transfers.Google Authenticator should also be implemented.
+- Blossom bank should encourage active cyber-security and improve controls by implementing continuous auditing and monitoring.
